@@ -9,7 +9,7 @@ scalacOptions ++= List(
 )
 
 libraryDependencies ++= Seq(
-  "org.scalameta" %% "munit" % "0.7.10" % Test
+  "org.scalameta" %% "munit" % "0.7.11" % Test
 )
 
 testFrameworks += new TestFramework("munit.Framework")
