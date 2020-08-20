@@ -2,7 +2,7 @@ name := "$name$"
 organization := "$organization$"
 
 version := "0.1.0"
-scalaVersion := "2.13.2"
+scalaVersion := "2.13.3"
 
 scalacOptions ++= List(
   "-Ywarn-unused"
