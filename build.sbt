@@ -1,6 +1,6 @@
 name := "repo-seed-scala"
 
-scalaVersion := "2.13.2"
+scalaVersion := "2.13.3"
 
 enablePlugins(ScriptedPlugin)
 
