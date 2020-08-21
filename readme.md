@@ -1,5 +1,8 @@
 # Repo Seed Scala
 
+[![License: CC0 1.0](https://img.shields.io/badge/License-CC0%201.0-lightgrey.svg)](license)
+[![Renovate enabled](https://img.shields.io/badge/renovate-enabled-brightgreen.svg)](https://renovatebot.com/)
+
 ## Description
 
 The [Giter8](http://www.foundweekends.org/giter8/) template I use for bootstrapping basic Scala repositories/projects.
