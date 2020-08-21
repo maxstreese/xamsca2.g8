@@ -5,10 +5,10 @@
 The [Giter8](http://www.foundweekends.org/giter8/) template I use for bootstrapping basic Scala repositories/projects.
 As this template is for my personal use it is tailored to whatever repository structure and Scala style I happen to
 be using. That being said if someone finds this repository helpful feel free to utilize it in whichever way you like
-(see also the [license](license)).
+(also see the [license](license)).
 
 There are one or two things I would like to note about this repository:
-* The use of a dependency bot in the form of [Renovate](https://github.com/renovatebot/renovate), which helps to keep
+* The usage of a dependency bot in the form of [Renovate](https://github.com/renovatebot/renovate), which helps to keep
   everything as up-to-date as possible. Configuration is not yet perfect for every kind of dependency this repository
   has but most dependencies are tracked by the bot. There are two notable alternatives to Renovate for Scala
   repositories:
