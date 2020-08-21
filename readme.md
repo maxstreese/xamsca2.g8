@@ -1,5 +1,7 @@
 # Repo Seed Scala
 
+## Description
+
 The [Giter8](http://www.foundweekends.org/giter8/) template I use for bootstrapping basic Scala repositories/projects.
 As this template is for my personal use it is tailored to whatever repository structure and Scala style I happen to
 be using. That being said if someone finds this repository helpful feel free to utilize it in whichever way you like
@@ -24,3 +26,15 @@ There are one or two things I would like to note about this repository:
   without having to set up a local development environment specific to the repository first. Please note that at this
   point the configuration I have put in place for Gitpod is not yet ideal and while the cloud environment works there
   are things that need improvement.
+
+## Usage
+
+With the Giter8 command line tool:
+```bash
+g8 maxstreese/repo-seed-scala.g8
+```
+
+With SBT:
+```bash
+sbt new maxstreese/repo-seed-scala.g8
+```
