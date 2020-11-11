@@ -1,4 +1,4 @@
-addSbtPlugin("ch.epfl.scala"    % "sbt-bloop"           % "1.4.5-4-07d519dc" )
+addSbtPlugin("ch.epfl.scala"    % "sbt-bloop"           % "1.4.5-6-4768184c" )
 addSbtPlugin("ch.epfl.scala"    % "sbt-scalafix"        % "0.9.23")
 addSbtPlugin("com.eed3si9n"     % "sbt-buildinfo"       % "0.10.0")
 addSbtPlugin("com.typesafe.sbt" % "sbt-native-packager" % "1.7.4" )
