@@ -9,5 +9,5 @@ scalacOptions ++= List(
 )
 
 libraryDependencies ++= Seq(
-  "org.scalatest" %% "scalatest" % "3.2.3" % "test"
+  "org.scalatest" %% "scalatest" % "3.2.4" % "test"
 )
