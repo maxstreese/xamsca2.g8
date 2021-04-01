@@ -1,13 +1,13 @@
 
-# Created by https://www.toptal.com/developers/gitignore/api/scala,sbt,bloop,metals
-# Edit at https://www.toptal.com/developers/gitignore?templates=scala,sbt,bloop,metals
+# Created by https://www.toptal.com/developers/gitignore/api/scala,sbt,bloop,metals,vscode
+# Edit at https://www.toptal.com/developers/gitignore?templates=scala,sbt,bloop,metals,vscode
 
 ### Bloop ###
 .bloop/
 
 ### Metals ###
 .metals/
-project/metals.sbt
+project/**/metals.sbt
 
 ### SBT ###
 # Simple Build Tool
@@ -22,9 +22,18 @@ project/plugins/project/
 .history
 .cache
 .lib/
+.bsp
 
 ### Scala ###
 *.class
 *.log
 
-# End of https://www.toptal.com/developers/gitignore/api/scala,sbt,bloop,metals
+### vscode ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# End of https://www.toptal.com/developers/gitignore/api/scala,sbt,bloop,metals,vscode
