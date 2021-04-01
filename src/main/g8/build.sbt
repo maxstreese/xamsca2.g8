@@ -4,7 +4,7 @@ ThisBuild / version      := "0.1.0-SNAPSHOT"
 
 lazy val $name;format="camel"$ = (project in file("."))
   .settings(
-    name := "$name$",
+    name := "$name;format="lower,hyphen"$",
     libraryDependencies ++= Seq(
       libScalaCheck,
       libScalaTest
