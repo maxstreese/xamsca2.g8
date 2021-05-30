@@ -1,5 +1,5 @@
 addSbtPlugin("ch.epfl.scala"             % "sbt-missinglink"     % "0.3.2" )
-addSbtPlugin("ch.epfl.scala"             % "sbt-scalafix"        % "0.9.28")
+addSbtPlugin("ch.epfl.scala"             % "sbt-scalafix"        % "0.9.29")
 addSbtPlugin("com.eed3si9n"              % "sbt-buildinfo"       % "0.10.0")
 addSbtPlugin("com.sksamuel.scapegoat"   %% "sbt-scapegoat"       % "1.1.0" )
 addSbtPlugin("com.typesafe.sbt"          % "sbt-native-packager" % "1.8.1" )
