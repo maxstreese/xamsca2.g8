@@ -14,4 +14,4 @@ lazy val $name;format="camel"$ = (project in file("."))
 lazy val libScalaCheck = "org.scalacheck" %% "scalacheck" % "1.15.4" % "test"
 lazy val libScalaTest  = "org.scalatest"  %% "scalatest"  % "3.2.9"  % "test"
 
-ThisBuild / scapegoatVersion := "1.4.8"
+ThisBuild / scapegoatVersion := "1.4.9"
