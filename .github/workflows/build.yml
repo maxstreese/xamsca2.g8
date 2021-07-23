@@ -1,0 +1,25 @@
+name: 'Test'
+
+on: 'push'
+
+jobs:
+  test:
+    runs-on: 'ubuntu-latest'
+    steps:
+    - name: 'Checkout Repository'
+      uses: 'actions/checkout@v2'
+    - name: 'Setup Java'
+      uses: 'actions/setup-java@v2'
+      with:
+        distribution: 'adopt-hotspot'
+        java-version: 11
+    - name: 'Cache SBT And Dependencies'
+      uses: 'actions/cache@v2'
+      with:
+        path: |
+          ~/.ivy2/cache
+          ~/.sbt
+        key: 'os-${{ runner.os }}-sbt-${{ hashFiles(''build.sbt'', ''project/build.properties'', ''project/plugins.sbt'') }}'
+        restore-keys: 'os-${{ runner.os }}-sbt-'
+    - name: 'Test Template'
+      run: 'sbt g8Test'
