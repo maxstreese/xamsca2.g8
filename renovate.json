@@ -3,11 +3,5 @@
     "config:base"
   ],
   "prHourlyLimit": 0,
-  "reviewers": ["maxstreese"],
-  "packageRules": [
-    {
-      "packageNames": ["ch.epfl.scala:sbt-bloop"],
-      "allowedVersions": "/^[0-9]+\\.[0-9]+\\.[0-9]+$/"
-    }
-  ]
+  "reviewers": ["maxstreese"]
 }
