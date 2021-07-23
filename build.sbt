@@ -1,6 +1,4 @@
-name := "xamsca2"
-
-scalaVersion := "2.13.6"
+name := "xamsca2.g8"
 
 enablePlugins(ScriptedPlugin)
 
@@ -11,3 +9,5 @@ scriptedLaunchOpts ++= Seq(
   "-Xss2m",
   "-Dfile.encoding=UTF-8"
 )
+
+resolvers += Resolver.url("typesafe", url("https://repo.typesafe.com/typesafe/ivy-releases/"))(Resolver.ivyStylePatterns)

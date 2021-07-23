@@ -1,13 +1,13 @@
 
-# Created by https://www.toptal.com/developers/gitignore/api/scala,sbt,bloop,metals
-# Edit at https://www.toptal.com/developers/gitignore?templates=scala,sbt,bloop,metals
+# Created by https://www.toptal.com/developers/gitignore/api/scala,sbt,bloop,metals,visualstudiocode
+# Edit at https://www.toptal.com/developers/gitignore?templates=scala,sbt,bloop,metals,visualstudiocode
 
 ### Bloop ###
 .bloop/
 
 ### Metals ###
 .metals/
-project/metals.sbt
+project/**/metals.sbt
 
 ### SBT ###
 # Simple Build Tool
@@ -27,4 +27,24 @@ project/plugins/project/
 *.class
 *.log
 
-# End of https://www.toptal.com/developers/gitignore/api/scala,sbt,bloop,metals
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+
+### VisualStudioCode ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# Local History for Visual Studio Code
+.history/
+
+### VisualStudioCode Patch ###
+# Ignore all local history of files
+.ionide
+
+# End of https://www.toptal.com/developers/gitignore/api/scala,sbt,bloop,metals,visualstudiocode
+
+.bsp/
