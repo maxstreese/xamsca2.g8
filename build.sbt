@@ -1,4 +1,4 @@
-name := "repo-seed-scala"
+name := "xamsca2"
 
 scalaVersion := "2.13.6"
 
