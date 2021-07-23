@@ -1,7 +1,7 @@
 # XamSca2 - Xam's Giter8 Template for Scala 2
 
-[![License: CC0 1.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](license)
-[![Renovate enabled](https://img.shields.io/badge/renovate-enabled-brightgreen.svg)](https://renovatebot.com/)
+[![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](license)
+[![Renovate: Enabled](https://img.shields.io/badge/Renovate-Enabled-green.svg)](https://renovatebot.com/)
 
 ## Description
 
